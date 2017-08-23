@@ -7,9 +7,9 @@ def main():
     """
     Function gets name and age input;
     Calculates which year the person will be 100 years old
-    (str, str) --> (str, int)
-    The second part, asks for a number and repeats the name for the same
+        The second part, asks for a number and repeats the name for the same
     number provided.
+    (str, str) --> (str, int)
     """
     name = input("What's your name? ")
     age = input("How old are you? ")

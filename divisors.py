@@ -4,6 +4,7 @@ def main():
     by: gsilvapt
     Solution for exercise 4.
     Function to ask for a number and find all its divisors.
+    (int) -> int if % == 0
     """
     num = int(input("Give me a number and I'll print all its divisors: "))
     for i in range(1,num+1):
