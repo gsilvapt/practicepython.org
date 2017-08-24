@@ -36,5 +36,13 @@ def game():
                         runs = True
                     else:
                         runs = False
+        elif player_input == opponent:
+            print("It's a tie!")
+            runs = False
+            retry = input ('Do you wish to play again? (y or n) ')
+            if retry == 'y':
+                runs = True
+            else:
+                runs = False
 if __name__ == '__main__':
     game()
