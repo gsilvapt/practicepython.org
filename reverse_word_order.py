@@ -15,5 +15,5 @@ def reverser(words):
     return " ".join(WordList)
 
 if __name__ == "__main__":
-    print(reverser(get_long_string('Introduce a long string, like a paragraph' \
+    print(reverser(get_long_string('Introduce a long string, like a paragraph'\
             ' of text. ')))
